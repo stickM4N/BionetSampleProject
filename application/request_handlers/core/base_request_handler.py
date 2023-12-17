@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 from types import NoneType
 from typing import Callable
 
-from application.request_handlers.core.base_request import BaseRequest
+from application.requests.core.base_request import BaseRequest
 
 
 class BaseRequestHandler(ABC):

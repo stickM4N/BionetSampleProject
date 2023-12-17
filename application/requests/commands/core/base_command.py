@@ -1,6 +1,6 @@
 from types import NoneType
 
-from application.request_handlers.core.base_request import BaseRequest
+from application.requests.core.base_request import BaseRequest
 
 
 class BaseCommand(BaseRequest):
